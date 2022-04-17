@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Card = (props) => {
   const { children } = props;
-  console.log(children);
+  // console.log(children);
   return <SCard>{children}</SCard>;
 };
 
